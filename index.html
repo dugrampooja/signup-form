@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="Width=device-width,intial-scale=1.0">
+        <title>Create an account</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <main>
+            <h1>Create an account</h1>
+
+            <p>Fill the form below to create your account.
+            </p>
+
+            <form>
+                <div>
+                    <label for="Username">Username:</label>
+                    <input
+                    id="username"
+                    name="username"
+                    type="text"
+                    autocomplete="name"
+                    minlength="8"
+                    required
+                    >
+                    </div>
+
+                    <div>
+                        <label for="phonenumber">Phonenumber:</label>
+                        <input
+                        id="phonenumber"
+                        name="phonenumber"
+                        type="number"
+                        minlength="10"
+                        reruired
+                        >
+                    </div>
+                    
+                    <div>
+                        <label for="Country">country:</label
+>                            <ul>
+                            <li>India</li>
+                            <li>china</li>
+                            <li>USA</li>
+</ul>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input
+                            type="checkbox"
+                            name="terms"
+                            value="accepted"
+                            required
+                            >
+
+                        </label>
+                    </div>
+
+                    <button type="submit">create account</button>
+            </form>
+        </main>
+    </body>
+</html>

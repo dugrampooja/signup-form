@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1rem;
+  font-family: system-ui, sans-serif;
+  background: #f4f4f5;
+  color: #18181b;
+}
+
+main {
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 0.75rem;
+}
+
+form {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+input:not([type="checkbox"]) {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #71717a;
+  border-radius: 0.4rem;
+  font: inherit;
+}
+
+input:focus {
+  outline: 3px solid #93c5fd;
+  outline-offset: 2px;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  border: 0;
+  border-radius: 0.4rem;
+  background: #2563eb;
+  color: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 3px solid #93c5fd;
+  outline-offset: 2px;
+}
